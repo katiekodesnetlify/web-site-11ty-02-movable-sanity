@@ -1,0 +1,9 @@
+---
+pagination:
+  data: landings
+  size: 1
+  alias: landing
+# I wish I could make "layout" pull from landing.template without erroring out
+layout: layouts/landing
+permalink: "{{ landing.slug }}"
+---
